@@ -1,0 +1,39 @@
+@import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
+@import '../bower_components/neat/app/assets/stylesheets/neat';
+
+html {
+  height: 100%;
+}
+
+body {
+  @include outer-container(100%);
+  margin: 0;
+  background: #000;
+  font-family: 'Helvetica', sans-serif;
+  height: 100%;
+}
+
+main {
+  @include span-columns(6);
+  @include shift(3);
+  background: #008646;
+  height: 100%;
+  text-align: center;
+  color: #00B35D;
+  h1 {
+    font-size: 43px;
+    color: #00512A;
+  }
+}
+
+a {
+  color: #A42A00;
+  text-decoration: none;
+}
+
+input {
+  text-align: center;
+  width: 90%;
+  font-size: 33px;
+  line-height: 33px;
+}

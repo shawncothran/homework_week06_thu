@@ -1,0 +1,22 @@
+{
+  "name": "c",
+  "main": "c.js",
+  "version": "0.0.0",
+  "authors": [
+    "Shawn Cothran <asliceofpizza@gmail.com>"
+  ],
+  "description": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "neat": "~1.7.2"
+  }
+}
